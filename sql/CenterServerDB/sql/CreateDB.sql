@@ -1,0 +1,10 @@
+create database centerdb_0;
+--create database centerdb_1;
+--create database centerdb_2;
+--create database centerdb_3;
+--create database centerdb_4;
+--create database centerdb_5;
+--create database centerdb_6;
+--create database centerdb_7;
+--create database centerdb_8;
+--create database centerdb_9;

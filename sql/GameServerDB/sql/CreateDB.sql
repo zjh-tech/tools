@@ -1,0 +1,10 @@
+create database gamedb_0;
+--create database gamedb_1;
+--create database gamedb_2;
+--create database gamedb_3;
+--create database gamedb_4;
+--create database gamedb_5;
+--create database gamedb_6;
+--create database gamedb_7;
+--create database gamedb_8;
+--create database gamedb_9;

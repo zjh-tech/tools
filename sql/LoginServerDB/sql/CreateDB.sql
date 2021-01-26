@@ -1,0 +1,10 @@
+create database logindb_0;
+--create database logindb_1;
+--create database logindb_2;
+--create database logindb_3;
+--create database logindb_4;
+--create database logindb_5;
+--create database logindb_6;
+--create database logindb_7;
+--create database logindb_8;
+--create database logindb_9;

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- edited with XMLSpy v2013 (http://www.altova.com) by  () -->
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.3.xsd">
+	<changeSet author="zjh" id="PlayerBase-CT-01">	
+		<createTable tableName="playerbase_00">
+			<column name="playerid"   remarks="角色id" type="BIGINT UNSIGNED">
+				<constraints primaryKey="true"/>
+			</column>
+
+			<column name="playername" defaultValue=""  remarks="角色" type="VARCHAR(32)">
+				<constraints nullable="false"/>
+			</column>
+
+			<column name="accountid"  remarks="账号id" type="BIGINT UNSIGNED">
+				<constraints nullable="false"/>
+			</column>
+			
+			<column name="createtime" defaultValueNumeric="0" remarks="创建时间" type="INT UNSIGNED">
+				<constraints nullable="false"/>
+			</column>
+		</createTable>		
+	</changeSet>
+</databaseChangeLog>
